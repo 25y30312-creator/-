@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """상암고 급식데이터 스트림릿 사이트"""
-import run
 import streamlit as st
 import requests
 import datetime
@@ -153,3 +152,4 @@ if st.button("🎲 랜덤 메뉴 추천 받기"):
 # --- 푸터 정보 ---
 st.markdown("---")
 st.caption("📍 상암고등학교 | 개발: 엄수아")
+
